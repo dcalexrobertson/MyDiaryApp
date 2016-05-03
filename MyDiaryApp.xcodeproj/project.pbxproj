@@ -14,6 +14,8 @@
 		FAF7C1BA1CD3C089004AD732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF7C1B81CD3C089004AD732 /* LaunchScreen.storyboard */; };
 		FAF7C1C51CD3C089004AD732 /* MyDiaryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7C1C41CD3C089004AD732 /* MyDiaryAppTests.swift */; };
 		FAF7C1D01CD3C089004AD732 /* MyDiaryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7C1CF1CD3C089004AD732 /* MyDiaryAppUITests.swift */; };
+		FAF7C1DE1CD597A1004AD732 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7C1DD1CD597A1004AD732 /* Entry.swift */; };
+		FAF7C1E01CD5BEBE004AD732 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7C1DF1CD5BEBE004AD732 /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FAF7C1CB1CD3C089004AD732 /* MyDiaryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDiaryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF7C1CF1CD3C089004AD732 /* MyDiaryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiaryAppUITests.swift; sourceTree = "<group>"; };
 		FAF7C1D11CD3C089004AD732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF7C1DD1CD597A1004AD732 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		FAF7C1DF1CD5BEBE004AD732 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				FAF7C1AF1CD3C089004AD732 /* AppDelegate.swift */,
+				FAF7C1DD1CD597A1004AD732 /* Entry.swift */,
 				FAF7C1B11CD3C089004AD732 /* ViewController.swift */,
+				FAF7C1DF1CD5BEBE004AD732 /* EntryViewController.swift */,
 				FAF7C1B31CD3C089004AD732 /* Main.storyboard */,
 				FAF7C1B61CD3C089004AD732 /* Assets.xcassets */,
 				FAF7C1B81CD3C089004AD732 /* LaunchScreen.storyboard */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF7C1DE1CD597A1004AD732 /* Entry.swift in Sources */,
+				FAF7C1E01CD5BEBE004AD732 /* EntryViewController.swift in Sources */,
 				FAF7C1B21CD3C089004AD732 /* ViewController.swift in Sources */,
 				FAF7C1B01CD3C089004AD732 /* AppDelegate.swift in Sources */,
 			);
@@ -402,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyDiaryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcalexrobertson.MyDiaryApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyDiaryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcalexrobertson.MyDiaryApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +494,7 @@
 				FAF7C1D61CD3C089004AD732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF7C1D71CD3C089004AD732 /* Build configuration list for PBXNativeTarget "MyDiaryAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +503,7 @@
 				FAF7C1D91CD3C089004AD732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF7C1DA1CD3C089004AD732 /* Build configuration list for PBXNativeTarget "MyDiaryAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +512,7 @@
 				FAF7C1DC1CD3C089004AD732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
